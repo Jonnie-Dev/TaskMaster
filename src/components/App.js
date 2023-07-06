@@ -39,6 +39,7 @@ const App = () => {
         setNewItem={setItems}
       />
       <Stats item={items} />
+      <span>Made with ❤️ by JonnieDev</span>
     </div>
   );
 };
