@@ -1,9 +1,12 @@
 const Stats = ({ item }) => {
   if (!item.length)
     return (
-      <p className="stats">
-        <em>Start planning your day!</em>
-      </p>
+      <>
+        <p className="stats">
+          <em>Start planning your day!</em>
+          <p className="attribution">Made with ❤️ by JonnieDev</p>
+        </p>
+      </>
     );
 
   let noOfCompleted = item.filter((el) => el.completed === true).length;
